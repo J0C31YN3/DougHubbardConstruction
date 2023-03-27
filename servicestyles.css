@@ -1,0 +1,14 @@
+.demolition{
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px}
+
+.remodel{
+	float: right;
+	margin-top: 50px;
+	margin-right: -350px;}
+
+.custom{
+	margin-right: 250px;
+	margin-top: 300px;
+	margin-bottom: 50px;}

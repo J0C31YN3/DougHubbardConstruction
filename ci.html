@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="utf-8">
+		<title>Doug Hubbard Construction Inc.</title>
+
+			<!-- 
+				Final Project, Doug Hubbard Construction Inc.
+				Your Name: Jocelyne Ronning
+				Today's Date: 10/9/18
+			-->
+
+		<style type="text/css">
+
+			@import url(linkstyles.css);
+		
+			body{
+				font-size: 1.1em;
+				font-family: Trebuchet MS, sans-serif;
+				color: black;}
+
+			*{margin: 0;
+				padding: 0;}
+				
+			#container{
+					width: 930px;
+					margin: 10px auto;
+					border: 1px solid #888888;
+					background-color: #425b5f;
+					box-shadow: 20px 20px 5px #808080;}
+			
+			header{
+					color: white;
+					margin-bottom: 10px;
+					background-color: #008080;
+					text-align: center;
+					line-height: 6em;
+					font-family: Trebuchet MS, sans-serif;
+					width: 750px;
+					margin-bottom: 30px;
+					margin-top: 10px;
+					margin-left: 10px;
+					text-align: center;
+					border: 1px solid #888888;
+					box-shadow: 6px 6px 2px 0 #888888;
+					border-radius: 15px;
+					letter-spacing: 2px;}
+			
+			#banner{
+					border: 5px solid teal;
+					text-align: center;}
+			
+			aside{
+					width: 200px;
+					margin: 0 10px 10px 0;
+					padding: 10px;
+					float: left;
+					color: white;
+					font-family: Trebuchet MS, sans-serif;
+					margin-top: 200px;
+					line-height: 30px;}
+			
+			#main{
+					width: 670px;
+					margin: 0 0 10px 0;
+					padding: 10px;
+					float: right;
+					background-image: url(images/main.jpg);
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-attachment: fixed;
+					background-color: black;}
+			
+			#main p{text-indent: 1.25em;}
+			
+			h2 {
+			  padding-bottom: 0.5em;
+			  color: white;
+			  text-align: center;
+			  font-family: Trebuchet MS, sans-serif;
+			  text-decoration: underline;
+			  font-size: 40px;}
+			
+			h3 {
+			  color: navy;
+			  font-size: 30px;}
+
+			footer { 
+			  width: 910px;
+			  margin: 0;
+			  padding: 10px;
+			  background-color: #008080;
+			  clear: both;
+			  text-align: center;
+			  border-top: solid 3px #888888}
+				
+			img{
+				float: right;
+				margin-top:-105px;
+				margin-right:-145px;
+				border: 1px solid #888888;
+				border-radius: 15px;}
+			
+			dl dt{
+				text-align: center;
+				font-size: 25px;}
+			
+			dl dd{
+				text-align: center;}
+				
+			p{
+				margin-bottom: 30px;
+				margin-top: 10px;}
+				
+			.labelfloatleft input{
+					display: block;}
+			
+			fieldset{
+				line-height: 30px;}
+			
+			fieldset.group{
+				float: none;
+				border: 0;
+				margin: 0;
+				padding: 0;}
+				
+			.display{
+				display: block;}
+			
+		</style>
+
+	</head>
+
+	<body>
+
+<div id="container"> 
+
+		<header> 
+		
+			<h1>
+				Contact Information
+			</h1>
+			
+			<img
+				src="images/logo.jpg"
+				alt="logo"
+				height="110"
+				width="110"/>
+				
+		</header>    
+			
+		
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="jc.html">Jobs/Careers</a></li>
+					<li><a href="s.html">Services</a></li>
+					<li><a href="p.html">Portfolio</a></li>
+				</ul>
+			</nav>
+		
+				 
+		<aside> 
+
+			<h2>Hours</h2>
+			
+			<dl>
+			
+				<dt>Sunday</dt>
+				<dd>Closed</dd>
+				
+				<dt>Monday</dt>
+				<dd>7am-5pm</dd>
+				
+				<dt>Tuesday</dt>
+				<dd>7am-5pm</dd>
+				
+				<dt>Wednesday</dt>
+				<dd>7am-5pm</dd>
+				
+				<dt>Thursday</dt>
+				<dd>7am-5pm</dd>
+				
+				<dt>Friday</dt>
+				<dd>7am-5pm</dd>
+				
+				<dt>Saturday</dt>
+				<dd>10am-6pm</dd>
+				
+			</dl>
+			
+		</aside> 
+			 
+		<article id="main">
+		 
+			<h3>Give Us a Call!</h3>
+				<p>612-584-8636.</p> 
+
+			<h3>Email Us!</h3>
+
+				<p><a href="mailto:jronning2@my.anokatech.edu" title="jronning2@my.anokatech.edu">jronning2@my.anokatech.edu</a></p>
+
+			<h3>Ready to Discuss a Project?</h3>
+
+				<form id="survey" name="survey" method="post" action="javascript:submitform();">
+			
+				<fieldset class="labelfloatleft"><legend>Contact Information</legend>
+					<label for="firstname">First Name</label>
+					<input 
+						type="text" 
+						name="firstname" 
+						id="firstname"
+						class="text"/>
+						
+					<label for="lastname">Last Name</label>
+					<input 
+						type="text" 
+						name="lastname"
+						id="lastname"
+						class="text"/>
+					
+					<label for="emailaddress">Email Address</label>
+					<input 
+						type="email" 
+						name="emailaddress" 
+						id="emailaddress"
+						size="40"
+						class="text"
+						placeholder="name@anywhere.com"/>
+					
+					<label for="phone">Phone Number</label>
+					<input 
+						type="text" 
+						name="phone" 
+						id="phonenumber"
+						size="12"
+						class="text"
+						placeholder="012-345-6789"
+						maxlength="12"/>
+						
+				</fieldset>
+			
+				<fieldset><legend>Personal Information</legend>
+				
+						<input 
+							type="radio" 
+							name="gender" 
+							id="male" 
+							value="male"/>
+						<label for="male">Male</label>
+						
+						<input 
+							type="radio" 
+							name="gender" 
+							id="female" 
+							value="female"/>
+						<label for="female">Female</label>
+					
+				</fieldset>
+				
+				<fieldset><legend>How Should We Contact You? (check one or more)</legend>
+					
+					<fieldset class="group">
+						<input 
+							type="checkbox"
+							name="contact"
+							id="phone"
+							value="phone"/>
+						<label for="phone">Phone</label>
+					</fieldset>
+					
+					<fieldset class="group">
+						<input 
+							type="checkbox"
+							name="contact"
+							id="email"
+							value="email"/>
+						<label for="email">Email</label>
+					</fieldset>
+					
+				</fieldset>
+				
+				<fieldset><legend>Send a message</legend>
+					<label for="subject">Subject</label>
+					<select name="subject" id="subject">
+						<option value="demolition">Demolition</option>
+						<option value="custom">Custom Work</option>
+						<option value="interior">Interior</option>
+						<option value="exterior">Exterior</option>
+						<option value="other">Other</option>
+					</select>
+					
+					<label class="display" for="message">Brief Description of Job Wanted</label>
+					<textarea 
+						name="message" 
+						id="message" 
+						rows="10" 
+						cols="45"></textarea>
+					
+				</fieldset>
+				
+				<input 
+					type="submit" 
+					value="Send Information" 
+					class="button"/>
+				<input 
+					type="reset" 
+					value="Reset" 
+					class="button"/>
+				
+			</form>
+
+		</article> <!-- end main -->
+
+		<footer> 
+			Doug Hubbard Construction Inc.
+			<br />2543 3rd St &bull; NE Minneapolis, MN 55418
+			<br />
+			<a href="index.html">Home</a> |
+			<a href="jc.html">Jobs/Careers</a> | 
+			<a href="s.html">Services</a> | 
+			<a href="p.html">Portfolio</a> |
+			<a href="sm.html">Site Map</a>
+			
+		 
+		</footer> <!-- end footer -->  
+</div>
+		<!-- end container --> 
+
+	</body>
+</html>
